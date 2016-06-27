@@ -1,2 +1,2 @@
 # TextColorFilterTool
-text color filter
+This a UIButton or UILabel Color 
