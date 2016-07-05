@@ -11,6 +11,6 @@
 
 -(UIButton *) chengesColorText:(NSString*) butedString AndUIButton:(UIButton*) control forState:(UIControlState) state; 
 
-3.效果： 
+2.效果： 
 
 ![效果图](渲染效果图.jpg)
