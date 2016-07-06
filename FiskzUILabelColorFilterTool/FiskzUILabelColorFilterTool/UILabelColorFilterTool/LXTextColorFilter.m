@@ -37,7 +37,7 @@
     self.selectedColor = selected;
 }
 
--(NSMutableAttributedString *) chengesColorText:(NSString*) butedString
+-(NSMutableAttributedString *) changesColorText:(NSString*) butedString
 {
     NSArray * one  = [butedString componentsSeparatedByString:@"["];
     NSString * str1 = one[0];
@@ -54,15 +54,15 @@
     return attributedStr;
 }
 
--(UILabel *) chengesColorText:(NSString*) butedString AndUILabel:(UILabel*) control
+-(UILabel *) changesColorText:(NSString*) butedString AndLabel:(UILabel*) control
 {
-    control.attributedText = [self chengesColorText:(NSString*) butedString];
+    control.attributedText = [self changesColorText:(NSString*) butedString];
     return control;
 }
 
--(UIButton *) chengesColorText:(NSString*) butedString AndUIButton:(UIButton*) control forState:(UIControlState) state
+-(UIButton *) changesColorText:(NSString*) butedString AndButton:(UIButton*) control forState:(UIControlState) state
 {
-    [control setAttributedTitle:[self chengesColorText:(NSString*) butedString] forState:state];
+    [control setAttributedTitle:[self changesColorText:(NSString*) butedString] forState:state];
     return control;
 }
 

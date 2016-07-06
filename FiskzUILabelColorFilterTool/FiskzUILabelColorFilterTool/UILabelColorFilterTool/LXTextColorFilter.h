@@ -18,10 +18,10 @@
 
 -(void) setStateNormalColor:(UIColor*) normal StateSelected:(UIColor*)selected;
 
--(NSMutableAttributedString *) chengesColorText:(NSString*) butedString;
+-(NSMutableAttributedString *) changesColorText:(NSString*) butedString;
 
--(UILabel *) chengesColorText:(NSString*) butedString AndUILabel:(UILabel*) control;
+-(UILabel *) changesColorText:(NSString*) butedString AndLabel:(UILabel*) control;
 
--(UIButton *) chengesColorText:(NSString*) butedString AndUIButton:(UIButton*) control forState:(UIControlState) state;
+-(UIButton *) changesColorText:(NSString*) butedString AndButton:(UIButton*) control forState:(UIControlState) state;
 
 @end
