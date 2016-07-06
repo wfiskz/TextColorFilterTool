@@ -7,9 +7,9 @@
 
 -(NSMutableAttributedString *) changesColorText:(NSString*) butedString;
 
--(UILabel *) changesColorText:(NSString*) butedString AndUILabel:(UILabel*) control;
+-(UILabel *) changesColorText:(NSString*) butedString AndLabel:(UILabel*) control;
 
--(UIButton *) changesColorText:(NSString*) butedString AndUIButton:(UIButton*) control forState:(UIControlState) state; 
+-(UIButton *) changesColorText:(NSString*) butedString AndButton:(UIButton*) control forState:(UIControlState) state; 
 
 2.效果： 
 
